@@ -1,0 +1,4 @@
+/* Селектор батько > дитина */
+ul > li {
+   outline: px dashed red;
+}
