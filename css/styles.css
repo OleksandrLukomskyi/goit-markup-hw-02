@@ -19,7 +19,7 @@
 body {
   font-family: var(--primary-font);
   font-size: 18px;
-  line-height: calc(30 / 18);
+ 
   letter-spacing: 0.02em;
   color: var(--color-novy-blue);
 }
@@ -32,11 +32,15 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(30 / 18);
+  line-height: calc(24 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   align-items: center;
+  
 }
+
+
+
 .header-logo-blue {
   color: var(--color-iris);
 }
@@ -48,28 +52,49 @@ body {
   letter-spacing: 0.02em;
 }
 
+
+
+li {
+  list-style: none;
+}
 .link {
   text-decoration: none;
 }
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-ocean);
+}
 .header-mail {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
-.header-mail:hover,
-.header-mail:focus {
   color: var(--color-slate);
 }
 
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--color-ocean);
+}
+
 .header-contakt {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+
+.header-contakt:hover,
+.header-contakt:focus {
+  color: var(--color-ocean);
+}
+
+
+
 .hero {
   width: 1440px;
   height: 600px;
@@ -77,6 +102,7 @@ body {
   top: 72px;
   background-color: var(--color-novy-blue);
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -95,12 +121,15 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-white);
   cursor: pointer;
+  background-color:var(--color-iris);
 }
 
 .hero-button:hover,
-.hero-button:focus {
-  background-color: var(--color-iris);
+.hero-button:focus
+{
+   background-color:var(--color-ocean);
 }
+
 .header-button {
   font-family: 'Roboto';
   font-style: normal;
@@ -110,10 +139,13 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
+  color: var(--color-iris);
+  background-color: var(--color-cornflower);
 }
 
 .btn:hover,
 .btn:focus {
+ color:var(--color-white) ;
   background-color: var(--color-iris);
 }
 
@@ -169,14 +201,18 @@ body {
   letter-spacing: 0.02em;
 }
 /* footer */
+.footer-bloc { 
+background-color: var(--color-novy-blue);
+}
 .footer-logo {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(30 / 18);
+  line-height: calc(21 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   align-items: center;
+  color:var(--color-cloud) ;
 }
 
 .footer-logo-blue {
@@ -184,12 +220,12 @@ body {
 }
 .logo-text {
   font-family: 'Roboto';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  background-color: var(--color-novy-blue);
+  
   /* CORNFLOWER */
 
   color: var(--color-cornflower);
