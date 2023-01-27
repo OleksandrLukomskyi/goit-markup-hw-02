@@ -19,7 +19,7 @@
 body {
   font-family: var(--primary-font);
   font-size: 18px;
- 
+
   letter-spacing: 0.02em;
   color: var(--color-novy-blue);
 }
@@ -35,24 +35,20 @@ body {
   line-height: calc(24 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  align-items: center;
-  
+  color: var(--color-novy-blue);
 }
-
-
 
 .header-logo-blue {
   color: var(--color-iris);
 }
 
-.header-nav {
+.header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
+  color: var(--color-novy-blue);
 }
-
-
 
 li {
   list-style: none;
@@ -93,18 +89,11 @@ li {
   color: var(--color-ocean);
 }
 
-
-
 .hero {
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background-color: var(--color-novy-blue);
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: calc(60 / 56);
   text-align: center;
@@ -117,22 +106,21 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
-  align-items: center;
+
   letter-spacing: 0.04em;
   color: var(--color-white);
   cursor: pointer;
-  background-color:var(--color-iris);
+  background-color: var(--color-iris);
 }
 
 .hero-button:hover,
-.hero-button:focus
-{
-   background-color:var(--color-ocean);
+.hero-button:focus {
+  background-color: var(--color-ocean);
 }
 
 .header-button {
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: var(--primary-font);
+
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -145,10 +133,9 @@ li {
 
 .btn:hover,
 .btn:focus {
- color:var(--color-white) ;
+  color: var(--color-white);
   background-color: var(--color-iris);
 }
-
 
 .features {
   font-weight: 500;
@@ -157,7 +144,6 @@ li {
   letter-spacing: 0.02em;
 }
 .features-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
@@ -177,7 +163,6 @@ li {
 
 /* Our Team */
 .team {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(40 / 36);
   text-align: center;
@@ -194,15 +179,14 @@ li {
 }
 
 .team-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
   text-align: center;
   letter-spacing: 0.02em;
 }
 /* footer */
-.footer-bloc { 
-background-color: var(--color-novy-blue);
+.footer-bloc {
+  background-color: var(--color-novy-blue);
 }
 .footer-logo {
   font-family: var(--secondary-font);
@@ -211,21 +195,18 @@ background-color: var(--color-novy-blue);
   line-height: calc(21 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  align-items: center;
-  color:var(--color-cloud) ;
+
+  color: var(--color-cloud);
 }
 
 .footer-logo-blue {
   color: var(--color-iris);
 }
 .logo-text {
-  font-family: 'Roboto';
-  
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  
+
   /* CORNFLOWER */
 
   color: var(--color-cornflower);
@@ -239,7 +220,6 @@ background-color: var(--color-novy-blue);
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
 }
